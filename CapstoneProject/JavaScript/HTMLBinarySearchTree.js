@@ -12,7 +12,7 @@ import { BinarySearchTree } from "./Structures/DataStructures.js";
 const MAXOUTPUTS = 5;
 
 // The text path where our font is stored
-const TEXTFONTPATH = '../three.js/examples/fonts/helvetiker_regular.typeface.json';
+const TEXTFONTPATH = 'https://threejs.org/examples/fonts/helvetiker_regular.typeface.json';
 
 // The starting point of the Stack
 const STARTINGPOINT = new THREE.Vector3 (0 , 35 , 0);
