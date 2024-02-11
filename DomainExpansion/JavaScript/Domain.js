@@ -35,7 +35,7 @@ function main ()
 
     function LaetitiaPlanes ()
     {
-        const texture = new THREE.TextureLoader().load ("../Images/LaetitiaBattleCrop.jpg");
+        const texture = new THREE.TextureLoader().load ("./Images/LaetitiaBattleCrop.jpg");
         texture.wrapS = THREE.RepeatWrapping;
         texture.wrapT = THREE.RepeatWrapping;
         texture.repeat.set ( 200 , 200 );
